@@ -1,0 +1,399 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ADDR_BLOCK0	aes.v	/^  localparam ADDR_BLOCK0      = 8'h20;$/;"	c	module:aes
+ADDR_BLOCK3	aes.v	/^  localparam ADDR_BLOCK3      = 8'h23;$/;"	c	module:aes
+ADDR_CONFIG	aes.v	/^  localparam ADDR_CONFIG      = 8'h0a;$/;"	c	module:aes
+ADDR_CTRL	aes.v	/^  localparam ADDR_CTRL        = 8'h08;$/;"	c	module:aes
+ADDR_KEY0	aes.v	/^  localparam ADDR_KEY0        = 8'h10;$/;"	c	module:aes
+ADDR_KEY7	aes.v	/^  localparam ADDR_KEY7        = 8'h17;$/;"	c	module:aes
+ADDR_NAME0	aes.v	/^  localparam ADDR_NAME0       = 8'h00;$/;"	c	module:aes
+ADDR_NAME1	aes.v	/^  localparam ADDR_NAME1       = 8'h01;$/;"	c	module:aes
+ADDR_RESULT0	aes.v	/^  localparam ADDR_RESULT0     = 8'h30;$/;"	c	module:aes
+ADDR_RESULT3	aes.v	/^  localparam ADDR_RESULT3     = 8'h33;$/;"	c	module:aes
+ADDR_STATUS	aes.v	/^  localparam ADDR_STATUS      = 8'h09;$/;"	c	module:aes
+ADDR_VERSION	aes.v	/^  localparam ADDR_VERSION     = 8'h02;$/;"	c	module:aes
+AES128_ROUNDS	aes_decipher_block.v	/^  localparam AES128_ROUNDS = 4'ha;$/;"	c	module:aes_decipher_block
+AES128_ROUNDS	aes_encipher_block.v	/^  localparam AES128_ROUNDS = 4'ha;$/;"	c	module:aes_encipher_block
+AES256_ROUNDS	aes_decipher_block.v	/^  localparam AES256_ROUNDS = 4'he;$/;"	c	module:aes_decipher_block
+AES256_ROUNDS	aes_encipher_block.v	/^  localparam AES256_ROUNDS = 4'he;$/;"	c	module:aes_encipher_block
+AES_128_BIT_KEY	aes_decipher_block.v	/^  localparam AES_128_BIT_KEY = 1'h0;$/;"	c	module:aes_decipher_block
+AES_128_BIT_KEY	aes_encipher_block.v	/^  localparam AES_128_BIT_KEY = 1'h0;$/;"	c	module:aes_encipher_block
+AES_128_BIT_KEY	aes_key_mem.v	/^  localparam AES_128_BIT_KEY = 1'h0;$/;"	c	module:aes_key_mem
+AES_128_NUM_ROUNDS	aes_key_mem.v	/^  localparam AES_128_NUM_ROUNDS = 10;$/;"	c	module:aes_key_mem
+AES_256_BIT_KEY	aes_decipher_block.v	/^  localparam AES_256_BIT_KEY = 1'h1;$/;"	c	module:aes_decipher_block
+AES_256_BIT_KEY	aes_encipher_block.v	/^  localparam AES_256_BIT_KEY = 1'h1;$/;"	c	module:aes_encipher_block
+AES_256_BIT_KEY	aes_key_mem.v	/^  localparam AES_256_BIT_KEY = 1'h1;$/;"	c	module:aes_key_mem
+AES_256_NUM_ROUNDS	aes_key_mem.v	/^  localparam AES_256_NUM_ROUNDS = 14;$/;"	c	module:aes_key_mem
+CORE_NAME0	aes.v	/^  localparam CORE_NAME0       = 32'h61657320; \/\/ "aes "$/;"	c	module:aes
+CORE_NAME1	aes.v	/^  localparam CORE_NAME1       = 32'h20202020; \/\/ "    "$/;"	c	module:aes
+CORE_VERSION	aes.v	/^  localparam CORE_VERSION     = 32'h302e3630; \/\/ "0.60"$/;"	c	module:aes
+CTRL_DONE	aes_key_mem.v	/^  localparam CTRL_DONE     = 3'h3;$/;"	c	module:aes_key_mem
+CTRL_ENCDEC_BIT	aes.v	/^  localparam CTRL_ENCDEC_BIT  = 0;$/;"	c	module:aes
+CTRL_GENERATE	aes_key_mem.v	/^  localparam CTRL_GENERATE = 3'h2;$/;"	c	module:aes_key_mem
+CTRL_IDLE	aes_core.v	/^  localparam CTRL_IDLE  = 2'h0;$/;"	c	module:aes_core
+CTRL_IDLE	aes_decipher_block.v	/^  localparam CTRL_IDLE  = 2'h0;$/;"	c	module:aes_decipher_block
+CTRL_IDLE	aes_encipher_block.v	/^  localparam CTRL_IDLE  = 2'h0;$/;"	c	module:aes_encipher_block
+CTRL_IDLE	aes_key_mem.v	/^  localparam CTRL_IDLE     = 3'h0;$/;"	c	module:aes_key_mem
+CTRL_INIT	aes_core.v	/^  localparam CTRL_INIT  = 2'h1;$/;"	c	module:aes_core
+CTRL_INIT	aes_decipher_block.v	/^  localparam CTRL_INIT  = 2'h1;$/;"	c	module:aes_decipher_block
+CTRL_INIT	aes_encipher_block.v	/^  localparam CTRL_INIT  = 2'h1;$/;"	c	module:aes_encipher_block
+CTRL_INIT	aes_key_mem.v	/^  localparam CTRL_INIT     = 3'h1;$/;"	c	module:aes_key_mem
+CTRL_INIT_BIT	aes.v	/^  localparam CTRL_INIT_BIT    = 0;$/;"	c	module:aes
+CTRL_KEYLEN_BIT	aes.v	/^  localparam CTRL_KEYLEN_BIT  = 1;$/;"	c	module:aes
+CTRL_MAIN	aes_decipher_block.v	/^  localparam CTRL_MAIN  = 2'h3;$/;"	c	module:aes_decipher_block
+CTRL_MAIN	aes_encipher_block.v	/^  localparam CTRL_MAIN  = 2'h3;$/;"	c	module:aes_encipher_block
+CTRL_NEXT	aes_core.v	/^  localparam CTRL_NEXT  = 2'h2;$/;"	c	module:aes_core
+CTRL_NEXT_BIT	aes.v	/^  localparam CTRL_NEXT_BIT    = 1;$/;"	c	module:aes
+CTRL_SBOX	aes_decipher_block.v	/^  localparam CTRL_SBOX  = 2'h2;$/;"	c	module:aes_decipher_block
+CTRL_SBOX	aes_encipher_block.v	/^  localparam CTRL_SBOX  = 2'h2;$/;"	c	module:aes_encipher_block
+FINAL_UPDATE	aes_decipher_block.v	/^  localparam FINAL_UPDATE = 3'h4;$/;"	c	module:aes_decipher_block
+FINAL_UPDATE	aes_encipher_block.v	/^  localparam FINAL_UPDATE = 3'h4;$/;"	c	module:aes_encipher_block
+INIT_UPDATE	aes_decipher_block.v	/^  localparam INIT_UPDATE  = 3'h1;$/;"	c	module:aes_decipher_block
+INIT_UPDATE	aes_encipher_block.v	/^  localparam INIT_UPDATE  = 3'h1;$/;"	c	module:aes_encipher_block
+MAIN_UPDATE	aes_decipher_block.v	/^  localparam MAIN_UPDATE  = 3'h3;$/;"	c	module:aes_decipher_block
+MAIN_UPDATE	aes_encipher_block.v	/^  localparam MAIN_UPDATE  = 3'h3;$/;"	c	module:aes_encipher_block
+NO_UPDATE	aes_decipher_block.v	/^  localparam NO_UPDATE    = 3'h0;$/;"	c	module:aes_decipher_block
+NO_UPDATE	aes_encipher_block.v	/^  localparam NO_UPDATE    = 3'h0;$/;"	c	module:aes_encipher_block
+SBOX_UPDATE	aes_decipher_block.v	/^  localparam SBOX_UPDATE  = 3'h2;$/;"	c	module:aes_decipher_block
+SBOX_UPDATE	aes_encipher_block.v	/^  localparam SBOX_UPDATE  = 3'h2;$/;"	c	module:aes_encipher_block
+STATUS_READY_BIT	aes.v	/^  localparam STATUS_READY_BIT = 0;$/;"	c	module:aes
+STATUS_VALID_BIT	aes.v	/^  localparam STATUS_VALID_BIT = 1;$/;"	c	module:aes
+addkey_block	aes_decipher_block.v	/^      reg [127 : 0] addkey_block;$/;"	r	block:aes_decipher_block.round_logic
+addkey_final_block	aes_encipher_block.v	/^      reg [127 : 0] addkey_init_block, addkey_main_block, addkey_final_block;$/;"	r	block:aes_encipher_block.round_logic
+addkey_init_block	aes_encipher_block.v	/^      reg [127 : 0] addkey_init_block, addkey_main_block, addkey_final_block;$/;"	r	block:aes_encipher_block.round_logic
+addkey_main_block	aes_encipher_block.v	/^      reg [127 : 0] addkey_init_block, addkey_main_block, addkey_final_block;$/;"	r	block:aes_encipher_block.round_logic
+address	aes.v	/^           input wire  [7 : 0]  address,$/;"	p	module:aes
+addroundkey	aes_decipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	f	module:aes_decipher_block
+addroundkey	aes_encipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	f	module:aes_encipher_block
+aes	aes.v	/^module aes($/;"	m
+aes_core	aes_core.v	/^module aes_core($/;"	m
+aes_core_ctrl	aes_core.v	/^    begin : aes_core_ctrl$/;"	b	module:aes_core
+aes_core_ctrl_new	aes_core.v	/^  reg [1 : 0] aes_core_ctrl_new;$/;"	r	module:aes_core
+aes_core_ctrl_reg	aes_core.v	/^  reg [1 : 0] aes_core_ctrl_reg;$/;"	r	module:aes_core
+aes_core_ctrl_we	aes_core.v	/^  reg         aes_core_ctrl_we;$/;"	r	module:aes_core
+aes_decipher_block	aes_decipher_block.v	/^module aes_decipher_block($/;"	m
+aes_encipher_block	aes_encipher_block.v	/^module aes_encipher_block($/;"	m
+aes_inv_sbox	aes_inv_sbox.v	/^module aes_inv_sbox($/;"	m
+aes_key_mem	aes_key_mem.v	/^module aes_key_mem($/;"	m
+aes_sbox	aes_sbox.v	/^module aes_sbox($/;"	m
+api	aes.v	/^    begin : api$/;"	b	module:aes
+b0	aes_decipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_decipher_block.inv_mixw
+b0	aes_encipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_encipher_block.mixw
+b1	aes_decipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_decipher_block.inv_mixw
+b1	aes_encipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_encipher_block.mixw
+b2	aes_decipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_decipher_block.inv_mixw
+b2	aes_encipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_encipher_block.mixw
+b3	aes_decipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_decipher_block.inv_mixw
+b3	aes_encipher_block.v	/^    reg [7 : 0] b0, b1, b2, b3;$/;"	r	function:aes_encipher_block.mixw
+block	aes_core.v	/^                input wire [127 : 0]  block,$/;"	p	module:aes_core
+block	aes_decipher_block.v	/^                          input wire [127 : 0]  block,$/;"	p	module:aes_decipher_block
+block	aes_encipher_block.v	/^                          input wire [127 : 0]  block,$/;"	p	module:aes_encipher_block
+block_new	aes_decipher_block.v	/^  reg [127 : 0] block_new;$/;"	r	module:aes_decipher_block
+block_new	aes_encipher_block.v	/^  reg [127 : 0] block_new;$/;"	r	module:aes_encipher_block
+block_reg	aes.v	/^  reg [31 : 0] block_reg [0 : 3];$/;"	r	module:aes
+block_w0_reg	aes_decipher_block.v	/^  reg [31 : 0]  block_w0_reg;$/;"	r	module:aes_decipher_block
+block_w0_reg	aes_encipher_block.v	/^  reg [31 : 0]  block_w0_reg;$/;"	r	module:aes_encipher_block
+block_w0_we	aes_decipher_block.v	/^  reg           block_w0_we;$/;"	r	module:aes_decipher_block
+block_w0_we	aes_encipher_block.v	/^  reg           block_w0_we;$/;"	r	module:aes_encipher_block
+block_w1_reg	aes_decipher_block.v	/^  reg [31 : 0]  block_w1_reg;$/;"	r	module:aes_decipher_block
+block_w1_reg	aes_encipher_block.v	/^  reg [31 : 0]  block_w1_reg;$/;"	r	module:aes_encipher_block
+block_w1_we	aes_decipher_block.v	/^  reg           block_w1_we;$/;"	r	module:aes_decipher_block
+block_w1_we	aes_encipher_block.v	/^  reg           block_w1_we;$/;"	r	module:aes_encipher_block
+block_w2_reg	aes_decipher_block.v	/^  reg [31 : 0]  block_w2_reg;$/;"	r	module:aes_decipher_block
+block_w2_reg	aes_encipher_block.v	/^  reg [31 : 0]  block_w2_reg;$/;"	r	module:aes_encipher_block
+block_w2_we	aes_decipher_block.v	/^  reg           block_w2_we;$/;"	r	module:aes_decipher_block
+block_w2_we	aes_encipher_block.v	/^  reg           block_w2_we;$/;"	r	module:aes_encipher_block
+block_w3_reg	aes_decipher_block.v	/^  reg [31 : 0]  block_w3_reg;$/;"	r	module:aes_decipher_block
+block_w3_reg	aes_encipher_block.v	/^  reg [31 : 0]  block_w3_reg;$/;"	r	module:aes_encipher_block
+block_w3_we	aes_decipher_block.v	/^  reg           block_w3_we;$/;"	r	module:aes_decipher_block
+block_w3_we	aes_encipher_block.v	/^  reg           block_w3_we;$/;"	r	module:aes_encipher_block
+block_we	aes.v	/^  reg          block_we;$/;"	r	module:aes
+clk	aes.v	/^           input wire           clk,$/;"	p	module:aes
+clk	aes_core.v	/^                input wire            clk,$/;"	p	module:aes_core
+clk	aes_decipher_block.v	/^                          input wire            clk,$/;"	p	module:aes_decipher_block
+clk	aes_encipher_block.v	/^                          input wire            clk,$/;"	p	module:aes_encipher_block
+clk	aes_key_mem.v	/^                   input wire            clk,$/;"	p	module:aes_key_mem
+config_we	aes.v	/^  reg config_we;$/;"	r	module:aes
+core_block	aes.v	/^  wire [127 : 0] core_block;$/;"	n	module:aes
+core_encdec	aes.v	/^  wire           core_encdec;$/;"	n	module:aes
+core_init	aes.v	/^  wire           core_init;$/;"	n	module:aes
+core_key	aes.v	/^  wire [255 : 0] core_key;$/;"	n	module:aes
+core_keylen	aes.v	/^  wire           core_keylen;$/;"	n	module:aes
+core_next	aes.v	/^  wire           core_next;$/;"	n	module:aes
+core_ready	aes.v	/^  wire           core_ready;$/;"	n	module:aes
+core_result	aes.v	/^  wire [127 : 0] core_result;$/;"	n	module:aes
+core_valid	aes.v	/^  wire           core_valid;$/;"	n	module:aes
+cs	aes.v	/^           input wire           cs,$/;"	p	module:aes
+data	aes_decipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	p	function:aes_decipher_block.addroundkey
+data	aes_decipher_block.v	/^  function [127 : 0] inv_mixcolumns(input [127 : 0] data);$/;"	p	function:aes_decipher_block.inv_mixcolumns
+data	aes_decipher_block.v	/^  function [127 : 0] inv_shiftrows(input [127 : 0] data);$/;"	p	function:aes_decipher_block.inv_shiftrows
+data	aes_encipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	p	function:aes_encipher_block.addroundkey
+data	aes_encipher_block.v	/^  function [127 : 0] mixcolumns(input [127 : 0] data);$/;"	p	function:aes_encipher_block.mixcolumns
+data	aes_encipher_block.v	/^  function [127 : 0] shiftrows(input [127 : 0] data);$/;"	p	function:aes_encipher_block.shiftrows
+dec_ctrl_new	aes_decipher_block.v	/^  reg [1 : 0]   dec_ctrl_new;$/;"	r	module:aes_decipher_block
+dec_ctrl_reg	aes_decipher_block.v	/^  reg [1 : 0]   dec_ctrl_reg;$/;"	r	module:aes_decipher_block
+dec_ctrl_we	aes_decipher_block.v	/^  reg           dec_ctrl_we;$/;"	r	module:aes_decipher_block
+dec_new_block	aes_core.v	/^  wire [127 : 0] dec_new_block;$/;"	n	module:aes_core
+dec_next	aes_core.v	/^  reg            dec_next;$/;"	r	module:aes_core
+dec_ready	aes_core.v	/^  wire           dec_ready;$/;"	n	module:aes_core
+dec_round_nr	aes_core.v	/^  wire [3 : 0]   dec_round_nr;$/;"	n	module:aes_core
+decipher_ctrl	aes_decipher_block.v	/^    begin: decipher_ctrl$/;"	b	module:aes_decipher_block
+enc_ctrl_new	aes_encipher_block.v	/^  reg [1 : 0]   enc_ctrl_new;$/;"	r	module:aes_encipher_block
+enc_ctrl_reg	aes_encipher_block.v	/^  reg [1 : 0]   enc_ctrl_reg;$/;"	r	module:aes_encipher_block
+enc_ctrl_we	aes_encipher_block.v	/^  reg           enc_ctrl_we;$/;"	r	module:aes_encipher_block
+enc_new_block	aes_core.v	/^  wire [127 : 0] enc_new_block;$/;"	n	module:aes_core
+enc_next	aes_core.v	/^  reg            enc_next;$/;"	r	module:aes_core
+enc_ready	aes_core.v	/^  wire           enc_ready;$/;"	n	module:aes_core
+enc_round_nr	aes_core.v	/^  wire [3 : 0]   enc_round_nr;$/;"	n	module:aes_core
+enc_sboxw	aes_core.v	/^  wire [31 : 0]  enc_sboxw;$/;"	n	module:aes_core
+encdec	aes_core.v	/^                input wire            encdec,$/;"	p	module:aes_core
+encdec_mux	aes_core.v	/^    begin : encdec_mux$/;"	b	module:aes_core
+encdec_reg	aes.v	/^  reg encdec_reg;$/;"	r	module:aes
+encipher_ctrl	aes_encipher_block.v	/^    begin: encipher_ctrl$/;"	b	module:aes_encipher_block
+gm09	aes_decipher_block.v	/^  function [7 : 0] gm09(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm11	aes_decipher_block.v	/^  function [7 : 0] gm11(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm13	aes_decipher_block.v	/^  function [7 : 0] gm13(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm14	aes_decipher_block.v	/^  function [7 : 0] gm14(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm2	aes_decipher_block.v	/^  function [7 : 0] gm2(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm2	aes_encipher_block.v	/^  function [7 : 0] gm2(input [7 : 0] op);$/;"	f	module:aes_encipher_block
+gm3	aes_decipher_block.v	/^  function [7 : 0] gm3(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm3	aes_encipher_block.v	/^  function [7 : 0] gm3(input [7 : 0] op);$/;"	f	module:aes_encipher_block
+gm4	aes_decipher_block.v	/^  function [7 : 0] gm4(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+gm8	aes_decipher_block.v	/^  function [7 : 0] gm8(input [7 : 0] op);$/;"	f	module:aes_decipher_block
+i	aes.v	/^      integer i;$/;"	r	block:aes.reg_update
+i	aes_key_mem.v	/^      integer i;$/;"	r	block:aes_key_mem.reg_update
+init	aes_core.v	/^                input wire            init,$/;"	p	module:aes_core
+init	aes_key_mem.v	/^                   input wire            init,$/;"	p	module:aes_key_mem
+init_new	aes.v	/^  reg init_new;$/;"	r	module:aes
+init_reg	aes.v	/^  reg init_reg;$/;"	r	module:aes
+init_state	aes_core.v	/^  reg            init_state;$/;"	r	module:aes_core
+inv_mixcolumns	aes_decipher_block.v	/^  function [127 : 0] inv_mixcolumns(input [127 : 0] data);$/;"	f	module:aes_decipher_block
+inv_mixcolumns_block	aes_decipher_block.v	/^      reg [127 : 0] old_block, inv_shiftrows_block, inv_mixcolumns_block;$/;"	r	block:aes_decipher_block.round_logic
+inv_mixw	aes_decipher_block.v	/^  function [31 : 0] inv_mixw(input [31 : 0] w);$/;"	f	module:aes_decipher_block
+inv_sbox	aes_inv_sbox.v	/^  wire [7 : 0] inv_sbox [0 : 255];$/;"	n	module:aes_inv_sbox
+inv_shiftrows	aes_decipher_block.v	/^  function [127 : 0] inv_shiftrows(input [127 : 0] data);$/;"	f	module:aes_decipher_block
+inv_shiftrows_block	aes_decipher_block.v	/^      reg [127 : 0] old_block, inv_shiftrows_block, inv_mixcolumns_block;$/;"	r	block:aes_decipher_block.round_logic
+k0	aes_key_mem.v	/^      reg [31 : 0] k0, k1, k2, k3;$/;"	r	block:aes_key_mem.round_key_gen
+k1	aes_key_mem.v	/^      reg [31 : 0] k0, k1, k2, k3;$/;"	r	block:aes_key_mem.round_key_gen
+k2	aes_key_mem.v	/^      reg [31 : 0] k0, k1, k2, k3;$/;"	r	block:aes_key_mem.round_key_gen
+k3	aes_key_mem.v	/^      reg [31 : 0] k0, k1, k2, k3;$/;"	r	block:aes_key_mem.round_key_gen
+key	aes_core.v	/^                input wire [255 : 0]  key,$/;"	p	module:aes_core
+key	aes_key_mem.v	/^                   input wire [255 : 0]  key,$/;"	p	module:aes_key_mem
+key_mem	aes_key_mem.v	/^  reg [127 : 0] key_mem [0 : 14];$/;"	r	module:aes_key_mem
+key_mem_ctrl	aes_key_mem.v	/^    begin: key_mem_ctrl$/;"	b	module:aes_key_mem
+key_mem_ctrl_new	aes_key_mem.v	/^  reg [2 : 0] key_mem_ctrl_new;$/;"	r	module:aes_key_mem
+key_mem_ctrl_reg	aes_key_mem.v	/^  reg [2 : 0] key_mem_ctrl_reg;$/;"	r	module:aes_key_mem
+key_mem_ctrl_we	aes_key_mem.v	/^  reg         key_mem_ctrl_we;$/;"	r	module:aes_key_mem
+key_mem_new	aes_key_mem.v	/^  reg [127 : 0] key_mem_new;$/;"	r	module:aes_key_mem
+key_mem_read	aes_key_mem.v	/^    begin : key_mem_read$/;"	b	module:aes_key_mem
+key_mem_we	aes_key_mem.v	/^  reg           key_mem_we;$/;"	r	module:aes_key_mem
+key_ready	aes_core.v	/^  wire           key_ready;$/;"	n	module:aes_core
+key_reg	aes.v	/^  reg [31 : 0] key_reg [0 : 7];$/;"	r	module:aes
+key_we	aes.v	/^  reg          key_we;$/;"	r	module:aes
+keylen	aes_core.v	/^                input wire            keylen,$/;"	p	module:aes_core
+keylen	aes_decipher_block.v	/^                          input wire            keylen,$/;"	p	module:aes_decipher_block
+keylen	aes_encipher_block.v	/^                          input wire            keylen,$/;"	p	module:aes_encipher_block
+keylen	aes_key_mem.v	/^                   input wire            keylen,$/;"	p	module:aes_key_mem
+keylen_reg	aes.v	/^  reg keylen_reg;$/;"	r	module:aes
+keymem_sboxw	aes_core.v	/^  wire [31 : 0]  keymem_sboxw;$/;"	n	module:aes_core
+mb0	aes_decipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_decipher_block.inv_mixw
+mb0	aes_encipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_encipher_block.mixw
+mb1	aes_decipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_decipher_block.inv_mixw
+mb1	aes_encipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_encipher_block.mixw
+mb2	aes_decipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_decipher_block.inv_mixw
+mb2	aes_encipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_encipher_block.mixw
+mb3	aes_decipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_decipher_block.inv_mixw
+mb3	aes_encipher_block.v	/^    reg [7 : 0] mb0, mb1, mb2, mb3;$/;"	r	function:aes_encipher_block.mixw
+mixcolumns	aes_encipher_block.v	/^  function [127 : 0] mixcolumns(input [127 : 0] data);$/;"	f	module:aes_encipher_block
+mixcolumns_block	aes_encipher_block.v	/^      reg [127 : 0] old_block, shiftrows_block, mixcolumns_block;$/;"	r	block:aes_encipher_block.round_logic
+mixw	aes_encipher_block.v	/^  function [31 : 0] mixw(input [31 : 0] w);$/;"	f	module:aes_encipher_block
+muxed_new_block	aes_core.v	/^  reg [127 : 0]  muxed_new_block;$/;"	r	module:aes_core
+muxed_ready	aes_core.v	/^  reg            muxed_ready;$/;"	r	module:aes_core
+muxed_round_nr	aes_core.v	/^  reg [3 : 0]    muxed_round_nr;$/;"	r	module:aes_core
+muxed_sboxw	aes_core.v	/^  reg [31 : 0]   muxed_sboxw;$/;"	r	module:aes_core
+muxed_sboxw	aes_encipher_block.v	/^  reg [31 : 0] muxed_sboxw;$/;"	r	module:aes_encipher_block
+new_block	aes_decipher_block.v	/^                          output wire [127 : 0] new_block,$/;"	p	module:aes_decipher_block
+new_block	aes_encipher_block.v	/^                          output wire [127 : 0] new_block,$/;"	p	module:aes_encipher_block
+new_sboxw	aes_core.v	/^  wire [31 : 0]  new_sboxw;$/;"	n	module:aes_core
+new_sboxw	aes_decipher_block.v	/^  wire [31 : 0] new_sboxw;$/;"	n	module:aes_decipher_block
+new_sboxw	aes_encipher_block.v	/^                          input wire  [31 : 0]  new_sboxw,$/;"	p	module:aes_encipher_block
+new_sboxw	aes_inv_sbox.v	/^                    output wire [31 : 0] new_sboxw$/;"	p	module:aes_inv_sbox
+new_sboxw	aes_key_mem.v	/^                   input wire  [31 : 0]  new_sboxw$/;"	p	module:aes_key_mem
+new_sboxw	aes_sbox.v	/^                output wire [31 : 0] new_sboxw$/;"	p	module:aes_sbox
+next	aes_core.v	/^                input wire            next,$/;"	p	module:aes_core
+next	aes_decipher_block.v	/^                          input wire            next,$/;"	p	module:aes_decipher_block
+next	aes_encipher_block.v	/^                          input wire            next,$/;"	p	module:aes_encipher_block
+next_new	aes.v	/^  reg next_new;$/;"	r	module:aes
+next_reg	aes.v	/^  reg next_reg;$/;"	r	module:aes
+num_rounds	aes_encipher_block.v	/^      reg [3 : 0] num_rounds;$/;"	r	block:aes_encipher_block.encipher_ctrl
+num_rounds	aes_key_mem.v	/^      reg [3 : 0] num_rounds;$/;"	r	block:aes_key_mem.key_mem_ctrl
+old_block	aes_decipher_block.v	/^      reg [127 : 0] old_block, inv_shiftrows_block, inv_mixcolumns_block;$/;"	r	block:aes_decipher_block.round_logic
+old_block	aes_encipher_block.v	/^      reg [127 : 0] old_block, shiftrows_block, mixcolumns_block;$/;"	r	block:aes_encipher_block.round_logic
+op	aes_decipher_block.v	/^  function [7 : 0] gm09(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm09
+op	aes_decipher_block.v	/^  function [7 : 0] gm11(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm11
+op	aes_decipher_block.v	/^  function [7 : 0] gm13(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm13
+op	aes_decipher_block.v	/^  function [7 : 0] gm14(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm14
+op	aes_decipher_block.v	/^  function [7 : 0] gm2(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm2
+op	aes_decipher_block.v	/^  function [7 : 0] gm3(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm3
+op	aes_decipher_block.v	/^  function [7 : 0] gm4(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm4
+op	aes_decipher_block.v	/^  function [7 : 0] gm8(input [7 : 0] op);$/;"	p	function:aes_decipher_block.gm8
+op	aes_encipher_block.v	/^  function [7 : 0] gm2(input [7 : 0] op);$/;"	p	function:aes_encipher_block.gm2
+op	aes_encipher_block.v	/^  function [7 : 0] gm3(input [7 : 0] op);$/;"	p	function:aes_encipher_block.gm3
+prev_key0_new	aes_key_mem.v	/^  reg [127 : 0] prev_key0_new;$/;"	r	module:aes_key_mem
+prev_key0_reg	aes_key_mem.v	/^  reg [127 : 0] prev_key0_reg;$/;"	r	module:aes_key_mem
+prev_key0_we	aes_key_mem.v	/^  reg           prev_key0_we;$/;"	r	module:aes_key_mem
+prev_key1_new	aes_key_mem.v	/^  reg [127 : 0] prev_key1_new;$/;"	r	module:aes_key_mem
+prev_key1_reg	aes_key_mem.v	/^  reg [127 : 0] prev_key1_reg;$/;"	r	module:aes_key_mem
+prev_key1_we	aes_key_mem.v	/^  reg           prev_key1_we;$/;"	r	module:aes_key_mem
+rcon_logic	aes_key_mem.v	/^    begin : rcon_logic$/;"	b	module:aes_key_mem
+rcon_new	aes_key_mem.v	/^  reg [7 : 0] rcon_new;$/;"	r	module:aes_key_mem
+rcon_next	aes_key_mem.v	/^  reg         rcon_next;$/;"	r	module:aes_key_mem
+rcon_reg	aes_key_mem.v	/^  reg [7 : 0] rcon_reg;$/;"	r	module:aes_key_mem
+rcon_set	aes_key_mem.v	/^  reg         rcon_set;$/;"	r	module:aes_key_mem
+rcon_we	aes_key_mem.v	/^  reg         rcon_we;$/;"	r	module:aes_key_mem
+rconw	aes_key_mem.v	/^      reg [31 : 0] rconw, rotstw, tw, trw;$/;"	r	block:aes_key_mem.round_key_gen
+read_data	aes.v	/^           output wire [31 : 0] read_data$/;"	p	module:aes
+ready	aes_core.v	/^                output wire           ready,$/;"	p	module:aes_core
+ready	aes_decipher_block.v	/^                          output wire           ready$/;"	p	module:aes_decipher_block
+ready	aes_encipher_block.v	/^                          output wire           ready$/;"	p	module:aes_encipher_block
+ready	aes_key_mem.v	/^                   output wire           ready,$/;"	p	module:aes_key_mem
+ready_new	aes_core.v	/^  reg         ready_new;$/;"	r	module:aes_core
+ready_new	aes_decipher_block.v	/^  reg           ready_new;$/;"	r	module:aes_decipher_block
+ready_new	aes_encipher_block.v	/^  reg           ready_new;$/;"	r	module:aes_encipher_block
+ready_new	aes_key_mem.v	/^  reg         ready_new;$/;"	r	module:aes_key_mem
+ready_reg	aes.v	/^  reg           ready_reg;$/;"	r	module:aes
+ready_reg	aes_core.v	/^  reg         ready_reg;$/;"	r	module:aes_core
+ready_reg	aes_decipher_block.v	/^  reg           ready_reg;$/;"	r	module:aes_decipher_block
+ready_reg	aes_encipher_block.v	/^  reg           ready_reg;$/;"	r	module:aes_encipher_block
+ready_reg	aes_key_mem.v	/^  reg         ready_reg;$/;"	r	module:aes_key_mem
+ready_we	aes_core.v	/^  reg         ready_we;$/;"	r	module:aes_core
+ready_we	aes_decipher_block.v	/^  reg           ready_we;$/;"	r	module:aes_decipher_block
+ready_we	aes_encipher_block.v	/^  reg           ready_we;$/;"	r	module:aes_encipher_block
+ready_we	aes_key_mem.v	/^  reg         ready_we;$/;"	r	module:aes_key_mem
+reg_update	aes.v	/^    begin : reg_update$/;"	b	module:aes
+reg_update	aes_core.v	/^    begin: reg_update$/;"	b	module:aes_core
+reg_update	aes_decipher_block.v	/^    begin: reg_update$/;"	b	module:aes_decipher_block
+reg_update	aes_encipher_block.v	/^    begin: reg_update$/;"	b	module:aes_encipher_block
+reg_update	aes_key_mem.v	/^    begin: reg_update$/;"	b	module:aes_key_mem
+reset_n	aes.v	/^           input wire           reset_n,$/;"	p	module:aes
+reset_n	aes_core.v	/^                input wire            reset_n,$/;"	p	module:aes_core
+reset_n	aes_decipher_block.v	/^                          input wire            reset_n,$/;"	p	module:aes_decipher_block
+reset_n	aes_encipher_block.v	/^                          input wire            reset_n,$/;"	p	module:aes_encipher_block
+reset_n	aes_key_mem.v	/^                   input wire            reset_n,$/;"	p	module:aes_key_mem
+result	aes_core.v	/^                output wire [127 : 0] result,$/;"	p	module:aes_core
+result_reg	aes.v	/^  reg [127 : 0] result_reg;$/;"	r	module:aes
+result_valid	aes_core.v	/^                output wire           result_valid$/;"	p	module:aes_core
+result_valid_new	aes_core.v	/^  reg         result_valid_new;$/;"	r	module:aes_core
+result_valid_reg	aes_core.v	/^  reg         result_valid_reg;$/;"	r	module:aes_core
+result_valid_we	aes_core.v	/^  reg         result_valid_we;$/;"	r	module:aes_core
+rkey	aes_decipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	p	function:aes_decipher_block.addroundkey
+rkey	aes_encipher_block.v	/^  function [127 : 0] addroundkey(input [127 : 0] data, input [127 : 0] rkey);$/;"	p	function:aes_encipher_block.addroundkey
+rotstw	aes_key_mem.v	/^      reg [31 : 0] rconw, rotstw, tw, trw;$/;"	r	block:aes_key_mem.round_key_gen
+round	aes_decipher_block.v	/^                          output wire [3 : 0]   round,$/;"	p	module:aes_decipher_block
+round	aes_encipher_block.v	/^                          output wire [3 : 0]   round,$/;"	p	module:aes_encipher_block
+round	aes_key_mem.v	/^                   input wire    [3 : 0] round,$/;"	p	module:aes_key_mem
+round_ctr	aes_decipher_block.v	/^    begin : round_ctr$/;"	b	module:aes_decipher_block
+round_ctr	aes_encipher_block.v	/^    begin : round_ctr$/;"	b	module:aes_encipher_block
+round_ctr	aes_key_mem.v	/^    begin : round_ctr$/;"	b	module:aes_key_mem
+round_ctr_dec	aes_decipher_block.v	/^  reg           round_ctr_dec;$/;"	r	module:aes_decipher_block
+round_ctr_inc	aes_encipher_block.v	/^  reg           round_ctr_inc;$/;"	r	module:aes_encipher_block
+round_ctr_inc	aes_key_mem.v	/^  reg         round_ctr_inc;$/;"	r	module:aes_key_mem
+round_ctr_new	aes_decipher_block.v	/^  reg [3 : 0]   round_ctr_new;$/;"	r	module:aes_decipher_block
+round_ctr_new	aes_encipher_block.v	/^  reg [3 : 0]   round_ctr_new;$/;"	r	module:aes_encipher_block
+round_ctr_new	aes_key_mem.v	/^  reg [3 : 0] round_ctr_new;$/;"	r	module:aes_key_mem
+round_ctr_reg	aes_decipher_block.v	/^  reg [3 : 0]   round_ctr_reg;$/;"	r	module:aes_decipher_block
+round_ctr_reg	aes_encipher_block.v	/^  reg [3 : 0]   round_ctr_reg;$/;"	r	module:aes_encipher_block
+round_ctr_reg	aes_key_mem.v	/^  reg [3 : 0] round_ctr_reg;$/;"	r	module:aes_key_mem
+round_ctr_rst	aes_encipher_block.v	/^  reg           round_ctr_rst;$/;"	r	module:aes_encipher_block
+round_ctr_rst	aes_key_mem.v	/^  reg         round_ctr_rst;$/;"	r	module:aes_key_mem
+round_ctr_set	aes_decipher_block.v	/^  reg           round_ctr_set;$/;"	r	module:aes_decipher_block
+round_ctr_we	aes_decipher_block.v	/^  reg           round_ctr_we;$/;"	r	module:aes_decipher_block
+round_ctr_we	aes_encipher_block.v	/^  reg           round_ctr_we;$/;"	r	module:aes_encipher_block
+round_ctr_we	aes_key_mem.v	/^  reg         round_ctr_we;$/;"	r	module:aes_key_mem
+round_key	aes_core.v	/^  wire [127 : 0] round_key;$/;"	n	module:aes_core
+round_key	aes_decipher_block.v	/^                          input wire [127 : 0]  round_key,$/;"	p	module:aes_decipher_block
+round_key	aes_encipher_block.v	/^                          input wire [127 : 0]  round_key,$/;"	p	module:aes_encipher_block
+round_key	aes_key_mem.v	/^                   output wire [127 : 0] round_key,$/;"	p	module:aes_key_mem
+round_key_gen	aes_key_mem.v	/^    begin: round_key_gen$/;"	b	module:aes_key_mem
+round_key_update	aes_key_mem.v	/^  reg           round_key_update;$/;"	r	module:aes_key_mem
+round_logic	aes_decipher_block.v	/^    begin : round_logic$/;"	b	module:aes_decipher_block
+round_logic	aes_encipher_block.v	/^    begin : round_logic$/;"	b	module:aes_encipher_block
+sbox	aes_sbox.v	/^  wire [7 : 0] sbox [0 : 255];$/;"	n	module:aes_sbox
+sbox_mux	aes_core.v	/^    begin : sbox_mux$/;"	b	module:aes_core
+sboxw	aes_encipher_block.v	/^                          output wire [31 : 0]  sboxw,$/;"	p	module:aes_encipher_block
+sboxw	aes_inv_sbox.v	/^                    input wire  [31 : 0] sboxw,$/;"	p	module:aes_inv_sbox
+sboxw	aes_key_mem.v	/^                   output wire [31 : 0]  sboxw,$/;"	p	module:aes_key_mem
+sboxw	aes_sbox.v	/^                input wire [31 : 0]  sboxw,$/;"	p	module:aes_sbox
+shiftrows	aes_encipher_block.v	/^  function [127 : 0] shiftrows(input [127 : 0] data);$/;"	f	module:aes_encipher_block
+shiftrows_block	aes_encipher_block.v	/^      reg [127 : 0] old_block, shiftrows_block, mixcolumns_block;$/;"	r	block:aes_encipher_block.round_logic
+sword_ctr	aes_decipher_block.v	/^    begin : sword_ctr$/;"	b	module:aes_decipher_block
+sword_ctr	aes_encipher_block.v	/^    begin : sword_ctr$/;"	b	module:aes_encipher_block
+sword_ctr_inc	aes_decipher_block.v	/^  reg           sword_ctr_inc;$/;"	r	module:aes_decipher_block
+sword_ctr_inc	aes_encipher_block.v	/^  reg           sword_ctr_inc;$/;"	r	module:aes_encipher_block
+sword_ctr_new	aes_decipher_block.v	/^  reg [1 : 0]   sword_ctr_new;$/;"	r	module:aes_decipher_block
+sword_ctr_new	aes_encipher_block.v	/^  reg [1 : 0]   sword_ctr_new;$/;"	r	module:aes_encipher_block
+sword_ctr_reg	aes_decipher_block.v	/^  reg [1 : 0]   sword_ctr_reg;$/;"	r	module:aes_decipher_block
+sword_ctr_reg	aes_encipher_block.v	/^  reg [1 : 0]   sword_ctr_reg;$/;"	r	module:aes_encipher_block
+sword_ctr_rst	aes_decipher_block.v	/^  reg           sword_ctr_rst;$/;"	r	module:aes_decipher_block
+sword_ctr_rst	aes_encipher_block.v	/^  reg           sword_ctr_rst;$/;"	r	module:aes_encipher_block
+sword_ctr_we	aes_decipher_block.v	/^  reg           sword_ctr_we;$/;"	r	module:aes_decipher_block
+sword_ctr_we	aes_encipher_block.v	/^  reg           sword_ctr_we;$/;"	r	module:aes_encipher_block
+tmp_rcon	aes_key_mem.v	/^      reg [7 : 0] tmp_rcon;$/;"	r	block:aes_key_mem.rcon_logic
+tmp_read_data	aes.v	/^  reg [31 : 0]   tmp_read_data;$/;"	r	module:aes
+tmp_round_key	aes_key_mem.v	/^  reg [127 : 0] tmp_round_key;$/;"	r	module:aes_key_mem
+tmp_sboxw	aes_decipher_block.v	/^  reg [31 : 0]  tmp_sboxw;$/;"	r	module:aes_decipher_block
+tmp_sboxw	aes_key_mem.v	/^  reg [31 : 0]  tmp_sboxw;$/;"	r	module:aes_key_mem
+trw	aes_key_mem.v	/^      reg [31 : 0] rconw, rotstw, tw, trw;$/;"	r	block:aes_key_mem.round_key_gen
+tw	aes_key_mem.v	/^      reg [31 : 0] rconw, rotstw, tw, trw;$/;"	r	block:aes_key_mem.round_key_gen
+update_type	aes_decipher_block.v	/^  reg [2 : 0]   update_type;$/;"	r	module:aes_decipher_block
+update_type	aes_encipher_block.v	/^  reg [2 : 0]  update_type;$/;"	r	module:aes_encipher_block
+valid_reg	aes.v	/^  reg           valid_reg;$/;"	r	module:aes
+w	aes_decipher_block.v	/^  function [31 : 0] inv_mixw(input [31 : 0] w);$/;"	p	function:aes_decipher_block.inv_mixw
+w	aes_encipher_block.v	/^  function [31 : 0] mixw(input [31 : 0] w);$/;"	p	function:aes_encipher_block.mixw
+w0	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+w0	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+w0	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.mixcolumns
+w0	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.shiftrows
+w0	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w1	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+w1	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+w1	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.mixcolumns
+w1	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.shiftrows
+w1	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w2	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+w2	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+w2	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.mixcolumns
+w2	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.shiftrows
+w2	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w3	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+w3	aes_decipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+w3	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.mixcolumns
+w3	aes_encipher_block.v	/^    reg [31 : 0] w0, w1, w2, w3;$/;"	r	function:aes_encipher_block.shiftrows
+w3	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w4	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w5	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w6	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+w7	aes_key_mem.v	/^      reg [31 : 0] w0, w1, w2, w3, w4, w5, w6, w7;$/;"	r	block:aes_key_mem.round_key_gen
+we	aes.v	/^           input wire           we,$/;"	p	module:aes
+write_data	aes.v	/^           input wire  [31 : 0] write_data,$/;"	p	module:aes
+ws0	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+ws0	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+ws0	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.mixcolumns
+ws0	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.shiftrows
+ws1	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+ws1	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+ws1	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.mixcolumns
+ws1	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.shiftrows
+ws2	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+ws2	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+ws2	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.mixcolumns
+ws2	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.shiftrows
+ws3	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_mixcolumns
+ws3	aes_decipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_decipher_block.inv_shiftrows
+ws3	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.mixcolumns
+ws3	aes_encipher_block.v	/^    reg [31 : 0] ws0, ws1, ws2, ws3;$/;"	r	function:aes_encipher_block.shiftrows
